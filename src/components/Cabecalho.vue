@@ -1,5 +1,6 @@
 <script setup>
-const props = defineProps(['tarefasPendentes'])
+    console.log('o cabeçalho esta sendo renderizada.');
+    const props = defineProps(['tarefasPendentes'])
 </script>
 
 <template>

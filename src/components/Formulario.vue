@@ -1,4 +1,5 @@
 <script setup>
+        console.log('o formulário esta sendo renderizada.');
     const props = defineProps(['cadastraTarefa','tarefaTemp','trocarFiltro','editaTarefaTemp'])
 </script>
 

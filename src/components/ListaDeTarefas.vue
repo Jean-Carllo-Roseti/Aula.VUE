@@ -1,4 +1,5 @@
-<script>
+<script setup>
+    console.log('a lista esta sendo renderizada.');
     const props = defineProps (['tarefas']);
 </script>
 
@@ -13,3 +14,9 @@
         </li>
     </ul>
 </template>
+
+<style scoped>
+.done {
+    text-decoration: line-through;
+}
+</style>
